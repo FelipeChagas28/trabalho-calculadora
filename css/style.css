@@ -29,7 +29,7 @@ body{
     
 }
 
-.co-header {
+.header{
     display: flex;
     align-items: center;
     gap: 15px;
@@ -39,7 +39,7 @@ body{
     position: relative;  
 }
 
-.co-header button {
+.header button {
     position: absolute;
     left: 0;
     border-radius: 5px;
@@ -48,12 +48,12 @@ body{
     cursor: pointer;
 }
 
-.co-header button:hover {
+.header button:hover {
     background-color: #ff0000;
     opacity: 0.8;
 }
 
-.co-header h1 {
+.header h1 {
     margin: 0;
     flex: none;
 }
@@ -83,9 +83,42 @@ body{
     opacity: 0.8;
 }
 
-#pmeTempo, #pmeValor, #pmrTempo, #pmrValor {
+#pmeTempo, #pmeValor, #pmrTempo, #pmrValor, #pmpTempo, #pmpValor {
     border: none;
     border-radius: 5px;
     display: col;
     
 }
+
+.container-ccc {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin: 0 auto; 
+    margin-top: 100px;
+    background-color: #7e097e;
+    width: 800px;
+    padding: 15px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+
+.container-ccc form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%; 
+    gap: 10px; 
+    padding: 20px; 
+}
+
+.ccc-valores, .ccc-tempo {
+    background-color: #5a005a;
+    gap: 10px;
+    padding: 50px;
+    border-radius: 15px;
+
+}
+

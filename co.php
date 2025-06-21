@@ -20,7 +20,7 @@
 
     <div class="container-co">
 
-        <div class="co-header">
+        <div class="header">
             <button onclick="window.location.href='menus.php'">Voltar</button>
             <h1>C.O</h1>
         </div>
@@ -49,10 +49,10 @@
         <section>
             <?php
             $coValor = $pmeValor + $pmrValor;
-            echo "<h2>Valor do C.O: R$ " . number_format($coValor, 2, ',', '.') . "</h2>";
+            echo "<h2>C.O valor: R$ " . number_format($coValor, 2, ',', '.') . "</h2>";
 
             $coTempo = $pmeTempo + $pmrTempo;
-            echo "<h2>Valor do C.O (Tempo): " . $coTempo . " dias</h2>";
+            echo "<h2>C.O Tempo: : " . $coTempo . " dias</h2>";
             ?>
         </section>
 
