@@ -4,14 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C.O</title>
+    <title>Análise marginal</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
     <?php
-    //Guarda os valores dos inputs
     $vendasAtuais = $_POST['vendasAtuais'] ?? 0;
     $vendasPrevistas = $_POST['vendasPrevistas'] ?? 0;
     $precoVenda = $_POST['precoVenda'] ?? 0;
@@ -23,10 +22,10 @@
     $juros = $_POST['juros'] ?? 0;
     ?>
 
-    <div class="container-co">
+    <div class="container-al">
 
         <div class="header">
-            <button onclick="window.location.href='menus.php'">Voltar</button>
+            <button onclick="window.location.href='../menus.php'">Voltar</button>
             <h1>Análise marginal completo</h1>
         </div>
 
@@ -57,8 +56,6 @@
                 <label for="juros">Taxa de Juros</label>
                 <input type="number" name="juros" id="juros" value="<?php echo $juros; ?>">
             </div>
-
-            
 
             <input type="submit" value="Calcular" id="calcular">
         </form>

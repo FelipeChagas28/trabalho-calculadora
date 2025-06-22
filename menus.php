@@ -14,11 +14,13 @@
             <ul>
                 <li><a href="co.php">C.O</a></li>
                 <li><a href="analise-marginal/analise-marginal.php">Análise marginal</a></li>
+                <li><a href="analise-marginal/al-direta.php">Análise marginal direta</a></li>
             </ul>
         </div>
         <div class="coluna-2">
             <ul>
                 <li><a href="ccc.php">C.C.C</a></li>
+                <li><a href="mc-pe-gao.php">M.C, P.E e G.A.O</a></li>
             </ul>
         </div>
     </div>
