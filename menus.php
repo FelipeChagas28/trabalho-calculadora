@@ -15,6 +15,7 @@
                 <li><a href="co.php">C.O</a></li>
                 <li><a href="analise-marginal/analise-marginal.php">Análise marginal</a></li>
                 <li><a href="analise-marginal/al-direta.php">Análise marginal direta</a></li>
+                <li><a href="indices.php">Índices</a></li>
             </ul>
         </div>
         <div class="coluna-2">
